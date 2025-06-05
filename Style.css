@@ -1,0 +1,78 @@
+{box_sizing: border-box;}
+
+body{
+font-family:Arial;
+padding:10px;
+background:#f1f1f1;
+}
+
+/* ini kode untuk apa? */
+.header{
+padding:30px;
+text-align:center;
+background:white;
+}
+
+.header h1{font-size:50px;}
+
+/*Style the top navigation bar*/
+.topnav{
+overflow:hidden;
+background-color:#333;
+
+/*Style the topnav links*/
+.topnav a{
+display:block;
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+
+/*Change color on hover*/
+.topnav a:hover{
+background-color:#ddd;
+}
+
+/*Create two unequal columns that floats next to eact other*/
+/*Left column */
+.leftcolumn{
+float:left;
+width:75%;
+}
+
+/*Right column*/
+.rightcolumn{
+float:left;
+width:25%;
+background-color:#f1f1f1
+padding-left:20px;
+}
+
+/*Fake image*/
+.fakeimg{
+background-color:#aaa;
+width:100%;
+padding:20px;
+}
+
+/* ini kode untuk artikel*/
+.card{
+background-color:white;
+padding:20px;
+}
+
+/*Clear floats after the column*/
+.row::after{
+content:"";
+display:table;
+clear:both;
+}
+
+/*Footer*/
+.footer{
+padding:20px;
+text-align:center;
+background:#ddd;
+margin-top:20px;
+}
